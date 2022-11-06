@@ -1,0 +1,24 @@
+body{
+    background-color: blue;
+    margin-bottom:20px;
+}
+h1{
+    background-color: gold;
+    text-align: center;
+}
+.form-study{
+    border: 1ps solid gray;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+  }
+.controll{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+.form-field{
+    border: 2px solid royalblue;
+    flex: 1;
+  }
+  

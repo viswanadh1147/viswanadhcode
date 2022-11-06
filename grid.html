@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ 
+    <title>Grid form</title>
+
+    <script>
+        function mouseOver() {
+          document.getElementById("submit").style.color = "red";
+        }
+        
+        function mouseOut() {
+          document.getElementById("submit").style.color = "black";
+        }
+        </script>
+        
+</head>
+<style>
+    body {
+        background-color: #373e98;
+    }
+
+    .gform {
+        background-color: gray;
+        padding: 6px;
+        color: black;
+    }
+
+    .heading {
+        text-align: center;
+        color: black;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+    #btn{
+        cursor: pointer;
+        background-color: ;
+        
+    }
+
+    /* 
+    .container-1 div {
+        border: 2px solid green;
+        padding: 5%;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .container-2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-2 div {
+        border: 2px solid yellow;
+        padding: 5%;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .innerhead {
+        background-color: purple;
+    }
+
+    .innerhead-1 {
+        background-color: darkred;
+    } */
+</style>
+
+<body>
+    <h2 class="heading">Grid Form</h2>
+    <div class="gform">
+        <div class="container">
+            <div class="card">
+                    <img src="person.png" alt="Avatar">
+                <P>
+                    Name :customer-1;<br> Mobilenumber :9876543210;<br> Age :36;<br> Gender :male;<br> customer
+                    :new;<br>
+                    Budget :50lakhs;<br>
+                    Visitdate :1-11-2022;<br> Area :Manikonda;<br>
+                    <input type="submit" id="submit"  value="view details" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                </P>
+            </div>
+
+            <div class="card">
+                <img src="person.png" alt="Avatar">
+                <P>
+                    Name:customer-2;<br> Mobilenumber:9876544200;<br> Age:44;<br> Gender:female;<br> customer:old;<br>
+                    Budget:65lakhs;<br>
+                    Visitdate:12-11-2022;<br> Area:Gachibowli;<br>
+                    <input type="submit" id="submit" value="view details">
+                </P>
+            </div>
+
+            <div class="card">
+                <img src="person.png" alt="Avatar">
+                <P>
+                    Name:customer-3;<br> Mobilenumber:9876544200;<br> Age:44;<br> Gender:female;<br> customer:old;<br>
+                    Budget:45lakhs;<br>
+                    Visitdate:12-11-2022;<br> Area:Kondapur;<br>
+                    <input type="submit" id="submit" value="view details">
+                </P>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="person.png" alt="Avatar">
+                <P>
+                    Name:customer-4;<br> Mobilenumber:9876783210;<br> Age:80;<br> Gender:male;<br> customer:new;<br>
+                    Budget:150lakhs;<br>
+                    Visitdate:1-12-2022;<br> Area:Ameerpet;<br>
+                    <input type="submit" id="btn" value="view details">
+                </P>
+            </div>
+
+            <div class="card">
+                <img src="person.png" alt="Avatar">
+                <P>
+                    Name:customer-5;<br> Mobilenumber:7875644200;<br> Age:28;<br> Gender:male;<br> customer:New;<br>
+                    Budget:90lakhs;<br>
+                    Visitdate:12-12-2022;<br> Area:SRNagar;<br>
+                    <input type="submit" id="submit" value="view details">
+                </P>
+            </div>
+
+            <div class="card">
+                <img src="person.png" alt="Avatar">
+                <P>
+                    Name:customer-6;<br> Mobilenumber:8456614200;<br> Age:48;<br> Gender:female;<br> customer:old;<br>
+                    Budget:75lakhs;<br>
+                    Visitdate:12-11-2022;<br> Area:Gachibowli;<br>
+                    <input type="submit" id="submit" value="view details">
+                </P>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

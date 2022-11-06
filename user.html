@@ -1,0 +1,22 @@
+<script>
+
+
+    window.onload = function myFunction() {
+        var x = localStorage.getItem("email");
+        var y = localStorage.getItem("password");
+        var z = localStorage.getItem("gender");
+        document.getElementById("demo").innerHTML = x;
+        document.getElementById("demo1").innerHTML = y;
+        document.getElementById("demo2").innerHTML = z;
+    }
+
+</script>
+
+<body>
+    <p>EMAIL ENTERED IS :: </p>
+    <p id="demo"></p>
+    <p>password ENTERED IS :: </p>
+    <p id="demo1"></p>
+    <p>gender ENTERED IS :: </p>
+    <p id="demo2"></p>
+</body>

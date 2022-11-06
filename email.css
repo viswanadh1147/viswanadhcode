@@ -1,0 +1,85 @@
+/* body {
+  background-color: lightblue;
+  text-align:center;
+  border: 50px;
+  padding: 20px;
+  margin-bottom:20px;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#ageTextBox {
+  width: 10%;
+  height: 20px;
+  float: left;
+}
+label{
+  float: left;
+  padding-left: 350px;
+}
+.gen{
+  float: left;
+}
+.AGE1{
+  float: left;
+} */
+
+body {
+  background-color: lightblue;
+  text-align:center;
+  /* border: 50px; */
+  padding: 20px;
+  margin-bottom:20px;
+}
+.form-card{
+  border: 1ps solid gray;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-control{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+.form-label{
+  flex: 0 0 20%;
+}
+.form-fild{
+  flex: 1;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.login-from{
+  margin: 0 20%;
+}
+.heading{
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
